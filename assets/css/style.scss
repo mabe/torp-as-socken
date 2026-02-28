@@ -1,0 +1,101 @@
+---
+---
+
+@import "minima";
+
+// Custom styles for Torp i Ås Socken
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.site-header {
+  background-color: #4a6741;
+  border-top: 5px solid #2e4028;
+  border-bottom: none;
+}
+
+.site-header .site-title,
+.site-header .site-title:visited {
+  color: #f5f0e8;
+}
+
+.site-nav .page-link {
+  color: #f5f0e8;
+}
+
+.site-nav .page-link:hover {
+  color: #d4c9a8;
+}
+
+.site-title:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  color: #2e4028;
+}
+
+a {
+  color: #4a6741;
+}
+
+a:visited {
+  color: #5a5a3a;
+}
+
+a:hover {
+  color: #2e4028;
+}
+
+// Style the index table
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5em;
+  font-size: 0.95em;
+}
+
+table th {
+  background-color: #4a6741;
+  color: #f5f0e8;
+  padding: 0.5em 0.75em;
+  text-align: left;
+}
+
+table td {
+  padding: 0.4em 0.75em;
+  border-bottom: 1px solid #ddd;
+}
+
+table tr:nth-child(even) td {
+  background-color: #f2f0e8;
+}
+
+table tr:hover td {
+  background-color: #e8e4d4;
+}
+
+// Page styling
+.page-content {
+  background-color: #fafaf5;
+}
+
+.post-title,
+.page-heading {
+  color: #2e4028;
+}
+
+.site-footer {
+  background-color: #4a6741;
+  border-top: none;
+  color: #d4c9a8;
+}
+
+.site-footer a {
+  color: #d4c9a8;
+}
+
+.site-footer a:hover {
+  color: #f5f0e8;
+}
