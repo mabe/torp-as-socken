@@ -1,0 +1,18 @@
+title: Torp i Ås Socken
+description: >-
+  Inventering av gamla torp inom Veddige–Ås–Sällstorp hembygdsförening.
+  En studiecirkel dokumenterar torpens historia och dess innevånare.
+lang: sv
+baseurl: ""
+url: "https://mabe.github.io/torp-as-socken"
+
+theme: minima
+
+author:
+  name: Veddige–Ås–Sällstorp Hembygdsförening
+
+show_excerpts: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
